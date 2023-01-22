@@ -1,11 +1,11 @@
 # Faster R-CNN
 
-Setup using Anaconda or Miniconda environment
+Setup Local Environment using Anaconda or Miniconda
 
 ```bash
+conda create -p .venv
 # install dependencies
-conda install -c conda-forge jupyterlab
-conda install -c conda-forge tensorflow
+conda install --file requirements.txt -c conda-forge
 ```
 
 If you don't have anaconda or miniconda you can use pip instead with venv as the environment
@@ -14,8 +14,7 @@ If you don't have anaconda or miniconda you can use pip instead with venv as the
 # setup venv
 python -m venv .venv
 # install dependencies
-pip install jupyterlab
-pip install tensorflow
+pip install -r requirements.txt
 ```
 
 Run either jupyterlab or notebook
