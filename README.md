@@ -10,7 +10,7 @@ conda create -p .venv
 conda activate ./.venv
 
 # install dependencies
-conda install --file requirements.txt -c conda-forge
+conda install -c conda-forge --file requirements.txt
 ```
 
 If you don't have anaconda or miniconda you can use pip instead with venv as the environment
